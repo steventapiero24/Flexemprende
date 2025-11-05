@@ -6,12 +6,15 @@
 
 :root {
   font-family: "Inter", sans-serif;
-  --color-primary: #0070f3;
-  --color-secondary: #2c3e50;
+  --color-primary: #211AC0;
+  --color-secondary: #F25824;
+  --color-white: #fff;
+  --color-black: #000;
   --font-size-base: 16px;
   --font-weight-bold: 600;
   --font-weight-normal: 400;
   --border-radius-base: 4px;
   --border-width-base: 1px;
   --border-color-base: #d0d0d0;
+
 }

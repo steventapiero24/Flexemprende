@@ -27,12 +27,12 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className='menu__contact'>
-                    <ul>
+                    <ul className='flex-nowrap flex flex-center' >
                         <li>
-                            <a href="">WhatsApp</a>
+                            <a className='btn btn-primary' href="">WhatsApp</a>
                         </li>
                         <li>
-                            <a href="">Llamanos</a>
+                            <a className='btn btn-secondary' href="">Llamanos</a>
                         </li>
                     </ul>
                 </div>
