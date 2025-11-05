@@ -188,3 +188,29 @@
     transition: none !important;
   }
 }
+
+
+ /* Benefits  */
+
+.container__benefits {
+    padding: 0 8rem;
+    color: var(--color-white);
+    h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+}
+.container__benefits-content {
+    background-color: var(--color-primary);
+    border-radius: 5rem;
+    padding: 8rem;
+}
+
+.container__benefits-content-text {
+    padding: 0 13rem 0 0;
+}
+
+.container__benefits-content-images img {
+    width: 100%;
+    height: 100%;
+}
