@@ -1,4 +1,3 @@
-import { Services } from '../utils/bd'
 import CardOtherServices from './Atomos/CardOtherServices'
 
 const OtherServices = () => {
