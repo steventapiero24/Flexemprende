@@ -245,6 +245,7 @@
 /* Sobre Nosotros */
 .container__sobrenosotros {
   padding: 0 15rem;
+  height: auto;
 }
 
 .container__Sobrenosotroscontent {
@@ -299,3 +300,11 @@
     font-weight: 600;
 }
 
+/* Prices */
+
+.card-prices {
+  padding: 0 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

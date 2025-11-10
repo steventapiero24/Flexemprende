@@ -1,7 +1,7 @@
 
 import React from "react";
-import CountUp from "./utils/CountUp";
-import Carousel from "./utils/Carousel";
+import CountUp from "./Atomos/CountUp";
+import Carousel from "./Atomos/Carousel";
 
 
 const SobreNosotros = () => {
