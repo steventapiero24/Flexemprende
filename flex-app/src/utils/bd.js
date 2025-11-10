@@ -24,3 +24,23 @@ export const images = [
     alt: 'Imagen 1'
    },
 ];
+
+
+export const imagesBenefits = [
+  { url: "/public/img/reactcartera.webp",
+    title: "Panaderia Gjulieta",
+    link: "https://www.gjulieta.com/"
+}, 
+{   url: "/public/img/idsob.webp",
+    title: "Espacio crudo",
+    link: "https://www.gjulieta.com/"
+}, 
+  { url: "/public/img/idbangular.webp",
+    title: "Clickerbait",
+    link: "https://www.gjulieta.com/"
+  }, 
+  { url: "/public/img/seguros.webp", 
+    title: "Branding Anela",
+    link: "https://www.gjulieta.com/"
+  }, 
+]

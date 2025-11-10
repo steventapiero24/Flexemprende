@@ -1,6 +1,9 @@
 .width-100 {
   width: 100%;
 }
+.width-50 {
+  width: 50%;
+}
 
 .flex {
   display: flex;
@@ -62,11 +65,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 4.5rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 
 h4 {
