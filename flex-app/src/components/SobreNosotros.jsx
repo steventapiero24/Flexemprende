@@ -55,7 +55,11 @@ const SobreNosotros = () => {
             </div>
             <div className="container__Sobrenosotroscontent">
                 <div className="container__content-floating width-50">
-                    <h3>Construyo webs que convertir visitas en clientes, con:</h3>
+                    <h3>Mi solución: Branding + Web en un solo proceso</h3>
+                    <h4>Una marca sólida. Una web que convierte.
+Todo en un solo proceso, hecho para negocios reales.</h4>
+<p>No necesitas saber de diseño ni tecnología.
+Yo me encargo de todo para que tu negocio tenga una presencia digital completa y profesional.</p>
                     <ul className="flex flex-col">
                         <li>
                             <div className="container__content-floating_viñeta"></div>
