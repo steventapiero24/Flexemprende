@@ -12,6 +12,7 @@ const techLogos = [
     { node: <SiTypescript />, title: "TypeScript", href: "https://www.typescriptlang.org" },
     { node: <SiTailwindcss />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
 ];
+
 const Benefits = () => {
     return (
         <div className='container__benefits'>

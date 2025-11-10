@@ -29,10 +29,10 @@ const Nav = () => {
                 <div className='menu__contact'>
                     <ul className='flex-nowrap flex flex-center' >
                         <li>
-                            <a className='btn btn-primary' href="">WhatsApp</a>
+                            <a className='btn btn-primary' href="">Hanlemos por WhatsApp</a>
                         </li>
                         <li>
-                            <a className='btn btn-secondary' href="">Llamanos</a>
+                            <a className='btn btn-secondary' href="">Agendemos una llamada</a>
                         </li>
                     </ul>
                 </div>
