@@ -1,8 +1,8 @@
 import React from 'react';
 import { imagesBenefits } from '../utils/bd';
-import LogoLoop from './LogoLoop';
+import LogoLoop from './Atomos/LogoLoop';
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
-import DecayCard from './DecayCard';
+import DecayCard from './Atomos/DecayCard';
 
 
 

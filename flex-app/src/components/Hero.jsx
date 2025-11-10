@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageTrail from './ImageTrail';
+import ImageTrail from './Atomos/ImageTrail';
 import { images } from '../utils/bd';
 
 const Hero = () => {
