@@ -1,7 +1,11 @@
+import { Services } from '../utils/bd'
+import CardOtherServices from './Atomos/CardOtherServices'
+
 const OtherServices = () => {
     return (
-        <div>
-            Hola
+        <div className="container">
+            <h2>Otros servicios</h2>
+            <CardOtherServices />
         </div>
     )
 }
