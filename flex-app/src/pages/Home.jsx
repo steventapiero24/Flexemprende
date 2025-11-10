@@ -7,6 +7,7 @@ import CardPrices from '../components/Atomos/CardPrices'
 import SobreMi from '../components/SobreMi'
 import Comparation from '../components/ForWhat'
 import OtherServices from '../components/OtherServices'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
      <SobreMi />
      <Comparation />
      <OtherServices />  
+     <Footer />
     </>
   )
 }
