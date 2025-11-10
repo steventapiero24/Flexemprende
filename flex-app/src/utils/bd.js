@@ -75,7 +75,7 @@ export const tarifas = [
         "Optimización para Google",
       ]
     },
-    
+
     result: "Tu negocio tendrá una imagen moderna, coherente y profesional, con una web lista para mostrar y compartir.",
     price: 450,
     Entrega: "Entrega: 7 a 10 días"
@@ -95,7 +95,7 @@ export const tarifas = [
         "Pasarela de pagos y/o reservas",
       ]
     },
-    
+
     result: "Tu marca lucirá profesional, coherente y enfocada en resultados. Tu web se convierte en tu mejor vendedor.",
     price: 750,
     Entrega: "Entrega: 7 a 10 días"
@@ -111,15 +111,78 @@ export const tarifas = [
         "Diseño de logotipo + branding completo",
         "Web personalizada (tienda online, reservas, blog o landing de campañas)",
         "Integración con herramientas de marketing (Meta, Analytics, Email, etc.)",
-        "SEO avanzado y optimización de velocidad",  
+        "SEO avanzado y optimización de velocidad",
         "Personalización con tus colores y logotipo",
         "Plantillas para redes sociales",
         "Sesión de asesoría personalizada (estrategia digital + comunicación visual)",
       ]
     },
-    
+
     result: "Tu negocio tendrá una imagen moderna, coherente y profesional, con una web lista para mostrar y compartir.",
     price: 450,
     Entrega: "Entrega: 7 a 10 días"
   }
+]
+
+export const Services = [
+  {
+    number: "001",
+    title: "Experiencia de usuario y prototipado",
+    description: "Diseño de logotipo",
+    urlImage: "https://www.gjulieta.com/",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },
+  {
+    number: "001",
+    title: "Administracion y diseño de redes sociales",
+    description: "Diseño de logotipo",
+    urlImage: "https://www.gjulieta.com/",
+    items: {
+      value: [
+        "item uno",
+        "item dos"
+      ]
+    }
+  },
+  {
+    number: "001",
+    title: "Meta, Analytics, Email, etc.",
+    description: "Diseño de logotipo",
+    urlImage: "https://www.gjulieta.com/",
+    items: {
+      value: [
+        "item uno",
+        "item dos"
+      ]
+    }
+  },
+  {
+    number: "001",
+    title: "Animación y motion graphics",
+    description: "Diseño de logotipo",
+    urlImage: "https://www.gjulieta.com/",
+    items: {
+      value: [
+        "item uno",
+        "item dos"
+      ]
+    }
+  },
+  {
+    number: "001",
+    title: "Grabacion y Edicion de video",
+    description: "Diseño de logotipo",
+    urlImage: "https://www.gjulieta.com/",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },
 ]
