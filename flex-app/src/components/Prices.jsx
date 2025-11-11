@@ -2,7 +2,7 @@ import CardPrices from "./Atomos/CardPrices"
 
 const Prices = () => {
     return (
-        <div className="relative container">
+        <div className="relative flex">
             <CardPrices />
         </div>
     ) 

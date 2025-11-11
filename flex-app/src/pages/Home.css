@@ -465,11 +465,60 @@
 
 /* Prices */
 
-.card-prices {
+.container__precio {
+  height: 100vh;
   padding: 0 8rem;
-  display: flex;
+  gap: 16px;
   flex-wrap: wrap;
-  gap: 2rem;
+}
+
+.card-prices {
+  color: var(--color-white);
+  padding: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-black-rgba);
+  flex: 1;
+  justify-content: flex-start;
+  h3 {
+    font-weight: 500;
+  }
+  p {
+    color: var(--color-white);
+    font-weight: 400;
+  }
+  ul {
+    font-size: 1.1rem;
+    min-height: 330px;
+    line-height: 28px;
+  }
+  span {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+  .entrega {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--color-white);
+    opacity: 0.9;
+    transform: translateY(-30px);
+  }
+  .item-card {
+    content: "";
+    width: 10px;
+    height: 10px;
+    transform: translatey(-5px);
+    background-color: var(--color-white);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0.7;
+  }
+  
+}
+.card-prices:nth-child(2) {
+  background-color: var(--color-secondary);
 }
 
 /* Sobre mi  */

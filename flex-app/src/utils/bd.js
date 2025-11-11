@@ -60,8 +60,7 @@ export const imagesBenefits = [
 export const tarifas = [
   {
     title: "Esencial",
-    description: "Ideal para negocios que quieren empezar a tener visibilidad online.",
-    objetive: "Tener una web profesional y fácil de usar para mostrar tus productos o servicios y que te contacten por WhatsApp.",
+    descriptions: "Ideal para negocios que quieren empezar a tener visibilidad online.",
     includes: {
       list: [
         "Logotipo profesional y paleta de colores",
@@ -82,13 +81,13 @@ export const tarifas = [
   },
   {
     title: "Profesional",
-    description: "Negocios que ya tienen presencia en redes o clientes, pero quieren atraer más ventas y mejorar su imagen",
-    objetive: "Unificar tu marca con una identidad visual sólida y una web que convierte visitas en clientes.",
+    descriptions: "Negocios que ya tienen presencia en redes o clientes, pero quieren atraer más",
     includes: {
       list: [
         "Todo lo del plan esencial",
         "Logotipo avanzado (con versiones, icono, usos)",
-        "Manual de marca completo (colores, tipografías, estilos, ejemplos)• Web de 4 a 6 secciones (Inicio, Servicios, Nosotros, Galería, Contacto, Reservas o Catálogo)",
+        "Manual de marca completo (colores, tipografías, estilos, ejemplos)",
+        "Web de 4 a 6 secciones (Inicio, Servicios, Nosotros, Galería, Contacto, Reservas o Catálogo)",
         "Copywriting adaptado a tu negocio (textos que venden)",
         "SEO local (para aparecer en Google)",
         "Capacitación para que puedas actualizar tu web",
@@ -102,8 +101,7 @@ export const tarifas = [
   },
   {
     title: "Premium",
-    description: "Ideal para negocios que quieren empezar a tener visibilidad online.",
-    objetive: "Tener una web profesional y fácil de usar para mostrar tus productos o servicios y que te contacten por WhatsApp.",
+    descriptions: "Ideal para negocios que quieren empezar a tener visibilidad online.",
     includes: {
       list: [
         "Todo lo del Plan Profesional",
