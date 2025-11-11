@@ -6,7 +6,9 @@ const Nav = () => {
     return (
         <div className='flex flex-center'>
             <div className='flex flex-center flex-between container_menu'>
-                <img src={Logo} alt="logo"/>
+                <div className='container_menu-img'>
+                    <img src={Logo} alt="logo"/>
+                </div>
                 <div className='menu'>
                     <ul>
                         <li>

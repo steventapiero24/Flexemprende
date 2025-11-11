@@ -5,6 +5,9 @@
     top: 5%;
     z-index: 200;
 }
+.container_menu-img {
+  min-width: 20rem;
+}
 
 .container_menu img {
     width: 150px;
@@ -31,12 +34,14 @@
     z-index: 1;
 }
 .container__hero-content {
-    z-index: 2;
+    z-index: 200;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0 10rem;
+    height: 60vh;
+    background: transparent;
     h1, p {
         text-align: center;
     }
@@ -54,6 +59,10 @@
 .container__hero-buttons {
     z-index: 200;
     position: relative;
+}
+
+.container__hero-rotation {
+  transform: translateY(10px);
 }
 
 /* -----------------Loop--------------- */

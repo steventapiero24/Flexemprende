@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
+// import CircularText from './CircularText';
 
 import './imageTrail.css';
 
@@ -171,10 +172,23 @@ export default function ImageTrail({ items = [], variant = 1 }) {
 
   return (
     <div className="content" ref={containerRef}>
+      <div className='container__hero-content width-100'>
+                <h1>Transformo tu negocio local en una marca digital moderna</h1>
+                <p>Creo marcas y páginas web que ayudan a negocios locales a destacar, atraer clientes y vender más, sin complicaciones.</p>
+                {/* <div className='flex flex-center container__hero-rotation'>
+                        <CircularText
+                            text=" SIGUE BAJANDO * SCROLL DOWN *"
+                            onHover="speedUp"
+                            spinDuration={20}
+                            className="custom-class"
+                        />
+                </div> */}
+            </div>
       {items.map((url, i) => (
         <div className="content__img" key={i}>
           <div className="content__img-inner" style={{ backgroundImage: `url(${url})` }} />
         </div>
+        
       ))}
     </div>
   );
