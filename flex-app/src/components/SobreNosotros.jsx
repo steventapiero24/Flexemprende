@@ -11,7 +11,7 @@ const SobreNosotros = () => {
                 <div className="flex flex-col flex-center justify-center ">  
                     <CountUp
                     from={0}
-                    to={100}
+                    to={90}
                     separator=","
                     direction="up"
                     duration={1}
@@ -22,35 +22,35 @@ const SobreNosotros = () => {
                 <div className="flex flex-col flex-center justify-center ">  
                     <CountUp
                     from={0}
-                    to={100}
+                    to={120}
                     separator=","
                     direction="up"
                     duration={1}
                     className="count-up-text"
                     />
-                    <h3>Webs diseñadas</h3>
+                    <h3>Clientes generados</h3>
                 </div>
                 <div className="flex flex-col flex-center justify-center ">  
                     <CountUp
                     from={0}
-                    to={100}
+                    to={30}
                     separator=","
                     direction="up"
                     duration={1}
                     className="count-up-text"
                     />
-                    <h3>Webs diseñadas</h3>
+                    <h3>Marcas creadas</h3>
                 </div>
                 <div className="flex flex-col flex-center justify-center ">  
                     <CountUp
                     from={0}
-                    to={100}
+                    to={6}
                     separator=","
                     direction="up"
                     duration={1}
                     className="count-up-text"
                     />
-                    <h3>Webs diseñadas</h3>
+                    <h3>Años de experiencia</h3>
                 </div>
             </div>
             <div className="container__Sobrenosotroscontent">
