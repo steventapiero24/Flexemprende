@@ -24,7 +24,7 @@ const Home = () => {
     ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
-      smooth: 1, 
+      smooth: 2, 
       effects: true,
     });
   }, []);

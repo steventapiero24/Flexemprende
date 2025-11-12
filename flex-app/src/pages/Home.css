@@ -186,7 +186,7 @@
   right: 0;
   background: linear-gradient(
     to left,
-    var(--logoloop-fadeColor, var(--color-primary)) 0%,
+    var(--logoloop-fadeColor, var(--color-black-rgba)) 0%,
     rgba(0, 0, 0, 0) 100%
   );
 }
@@ -248,6 +248,9 @@
       filter: brightness(0.5);
       cursor: pointer;
     }
+
+
+
 
 /* Sobre Nosotros */
 .container__sobrenosotros {
