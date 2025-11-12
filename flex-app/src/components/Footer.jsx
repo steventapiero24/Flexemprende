@@ -1,30 +1,37 @@
 const Footer = () => {
     return (
-        <div className="container">
+        <div className="container container-footer flex flex-col">
             <h2>Contacto</h2>
-            <div>
-                <a href="">www.flexemprende.com</a>
-                <a href="">flexemprende@gmail.com</a>
-                <a href="">+569 911 680 001</a>
+            <div className="container__footer-content flex  flex-between">
+                <div className="flex flex-1 flex-col container__footer-menu">
+                    <a href="">Inicio</a>
+                    <a href="">Sobre nosotros</a>
+                    <a href="">Servicios</a>
+                    <a href="">Nuestros clientes</a>
+                    <a href="">Contacto</a>
+                </div>
 
-                <a href="">instagram</a>    
-                <a href="">facebook</a> 
-                <a href="">Linkeding</a>
+                <div className="flex flex-col flex-1">
+                    <div className="flex flex-col footer__contact-text">
+                        <a href="">flexemprende@gmail.com</a>
+                        <a href="">+569 911 680 001</a>
+                    </div>
+                    <div className="flex footer__contact-redes">
+                        <a href="">instagram</a>
+                        <a href="">facebook</a>
+                        <a href="">Linkeding</a>
+                    </div>
 
-                <a href="">Inicio</a>
-                <a href="">Sobre nosotros</a>
-                <a href="">Servicios</a>
-                <a href="">Nuestros clientes</a>
-                <a href="">Contacto</a>
+                </div>
             </div>
-            <div>
-                Creemos juntos
+            <div className="container__footer-text">
+                <span>CREEMOS JUNTOS</span>
             </div>
-            <div>
+            <div className="container__footer-reserved flex flex-center">
                 Todos los derechos reservados realizada por Flexemprende
-            </div>      
+            </div>
         </div>
-    ) 
+    )
 }
 
-export default  Footer
+export default Footer

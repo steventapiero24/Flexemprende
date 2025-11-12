@@ -136,7 +136,7 @@ export const Services = [
     }
   },
   {
-    number: "001",
+    number: "002",
     title: "Administracion y diseño de redes sociales",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
@@ -148,8 +148,8 @@ export const Services = [
     }
   },
   {
-    number: "001",
-    title: "Meta, Analytics, Email, etc.",
+    number: "003",
+    title: "Meta, Email, etc, Analytics",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
     items: {
@@ -160,7 +160,7 @@ export const Services = [
     }
   },
   {
-    number: "001",
+    number: "004",
     title: "Animación y motion graphics",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
@@ -172,7 +172,7 @@ export const Services = [
     }
   },
   {
-    number: "001",
+    number: "005",
     title: "Grabacion y Edicion de video",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",

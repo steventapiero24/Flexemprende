@@ -18,7 +18,7 @@ const Benefits = () => {
         <div className='container__benefits'>
             <div className='container__benefits-content flex'>
                 <div className='width-50 fixed container__benefits-content-text flex-col'>
-                    <h2>¿Tu negocio necesita una web profesional?</h2>
+                    <h2>Necesitas <br/> una web profesional?</h2>
                     <p>Tu cliente ya está buscando en Internet.
                         Si no te ve, compra en otro lado. Así de simple.</p>
                     <div style={{ height: '200px', position: 'relative', overflow: 'hidden' }}>
