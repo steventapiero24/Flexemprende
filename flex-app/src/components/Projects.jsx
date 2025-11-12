@@ -43,8 +43,7 @@ const Benefits = () => {
         pinSpacing: false
       });
 
-      imagesRef.current.forEach((img, i) => {
-  // selecciona la imagen dentro del bloque
+      imagesRef.current.forEach((img) => {
   const imageEl = img.querySelector('img');
 
 gsap.fromTo(
@@ -66,7 +65,7 @@ gsap.fromTo(
       start: "top 90%",
       end: "80% 60%",
       scrub: true,  
-      markers: true,  
+      markers: false,  
     }
   }
 );
@@ -81,7 +80,6 @@ gsap.fromTo(
   return (
     <div className="container__benefits" ref={sectionRef}>
       <div className="container__benefits-content flex">
-        {/* Texto fijo */}
         <div ref={textRef} className="width-50 fixed container__benefits-content-text flex-col">
           <h2>Necesitas <br /> una web profesional?</h2>
           <p>Tu cliente ya está buscando en Internet.
@@ -101,8 +99,6 @@ gsap.fromTo(
             />
           </div>
         </div>
-
-        {/* Imágenes que entran al hacer scroll */}
         <div className="width-50 wrapper container__benefits-content-images">
           <div>
             {imagesBenefits.map((image, index) => (

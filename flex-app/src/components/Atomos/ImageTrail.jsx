@@ -182,12 +182,12 @@ export default function ImageTrail({ items = [], variant = 1 }) {
     if (pRef.current) {
       const text = pRef.current.textContent;
       const words = text.split(' ');
-      pRef.current.innerHTML = words.map(word => `<span style="display: inline-block; overflow: hidden;">${word}</span></span>`).join(' ');
+      pRef.current.innerHTML = words.map(word => `<span style="display: inline-block; overflow: hidden;"><span class="words">${word}</span></span>`).join(' ');
     }
 
     // Establecer estado inicial
     const h1Words = h1Ref.current?.querySelectorAll('.word');
-    const pWords = pRef.current?.querySelectorAll('.word');
+    const pWords = pRef.current?.querySelectorAll('.words');
 
     if (h1Words) {
       gsap.set(h1Words, { y: 100, opacity: 0 });
