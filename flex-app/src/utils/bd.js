@@ -184,3 +184,51 @@ export const Services = [
     }
   },
 ]
+
+export const cardsForWhat = [
+  {
+    title: "Experiencia real en diseño y desarrollo web",
+    description: "Mas de 6",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },
+  {
+    title: "Combino branding + diseño + estrategia",
+    description: "Todo en uno",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    },
+    className: "prymary"
+  },
+  {
+    title: "Entrego rápido, sin tecnicismos",
+    description: "Diseño de logotipo",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },  
+  {
+    title: "Acompaño todo el proceso ",
+    description: "no te dejo solo con la web",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },  
+]
