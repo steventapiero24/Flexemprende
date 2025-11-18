@@ -124,7 +124,7 @@ class ImageTrailVariant1 {
           y: this.cacheMousePos.y - img.rect.height / 2
         },
         {
-          duration: 0.4,
+          duration: 0.6,
           ease: 'power1',
           x: this.mousePos.x - img.rect.width / 2,
           y: this.mousePos.y - img.rect.height / 2
@@ -134,7 +134,7 @@ class ImageTrailVariant1 {
       .to(
         img.DOM.el,
         {
-          duration: 0.4,
+          duration: 0.6,
           ease: 'power3',
           opacity: 0,
           scale: 0.2
@@ -161,6 +161,8 @@ const variantMap = {
 
 export default function ImageTrail({ items = [], variant = 1 }) {
   const containerRef = useRef(null);
+  const h1Ref = useRef(null);
+  const pRef = useRef(null);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -169,8 +171,61 @@ export default function ImageTrail({ items = [], variant = 1 }) {
     new Cls(containerRef.current);
   }, [variant, items]);
 
+  useEffect(() => {
+    // Dividir el texto en palabras y envolverlas en spans
+    if (h1Ref.current) {
+      const text = h1Ref.current.textContent;
+      const words = text.split(' ');
+      h1Ref.current.innerHTML = words.map(word => `<span style="display: inline-block; overflow: hidden;"><span class="word">${word}</span></span>`).join(' ');
+    }
+
+    if (pRef.current) {
+      const text = pRef.current.textContent;
+      const words = text.split(' ');
+      pRef.current.innerHTML = words.map(word => `<span style="display: inline-block; overflow: hidden;"><span class="words">${word}</span></span>`).join(' ');
+    }
+
+    // Establecer estado inicial
+    const h1Words = h1Ref.current?.querySelectorAll('.word');
+    const pWords = pRef.current?.querySelectorAll('.words');
+
+    if (h1Words) {
+      gsap.set(h1Words, { y: 100, opacity: 0 });
+    }
+    if (pWords) {
+      gsap.set(pWords, { y: 100, opacity: 0 });
+    }
+
+    // Animar
+    const tl = gsap.timeline();
+
+    if (h1Words) {
+      tl.to(h1Words, {
+        y: 0,
+        opacity: 1,
+        duration: 0.8,
+        stagger: 0.05,
+        ease: 'power3.out'
+      });
+    }
+
+    if (pWords) {
+      tl.to(pWords, {
+        y: 0,
+        opacity: 1,
+        duration: 0.6,
+        stagger: 0.03,
+        ease: 'power2.out'
+      }, '-=0.4');
+    }
+  }, []);
+
   return (
     <div className="content" ref={containerRef}>
+      <div className='container__hero-content width-100'>
+        <h1 ref={h1Ref}>Transformo tu negocio local en una marca digital moderna</h1>
+        <p ref={pRef}>Creo marcas y páginas web que ayudan a negocios locales a destacar, atraer clientes y vender más, sin complicaciones.</p>
+      </div>
       {items.map((url, i) => (
         <div className="content__img" key={i}>
           <div className="content__img-inner" style={{ backgroundImage: `url(${url})` }} />

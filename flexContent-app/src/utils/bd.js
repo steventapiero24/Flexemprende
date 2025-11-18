@@ -60,8 +60,7 @@ export const imagesBenefits = [
 export const tarifas = [
   {
     title: "Esencial",
-    description: "Ideal para negocios que quieren empezar a tener visibilidad online.",
-    objetive: "Tener una web profesional y fácil de usar para mostrar tus productos o servicios y que te contacten por WhatsApp.",
+    descriptions: "Ideal para negocios que quieren empezar a tener visibilidad online.",
     includes: {
       list: [
         "Logotipo profesional y paleta de colores",
@@ -82,13 +81,13 @@ export const tarifas = [
   },
   {
     title: "Profesional",
-    description: "Negocios que ya tienen presencia en redes o clientes, pero quieren atraer más ventas y mejorar su imagen",
-    objetive: "Unificar tu marca con una identidad visual sólida y una web que convierte visitas en clientes.",
+    descriptions: "Negocios que ya tienen presencia en redes o clientes, pero quieren atraer más",
     includes: {
       list: [
         "Todo lo del plan esencial",
         "Logotipo avanzado (con versiones, icono, usos)",
-        "Manual de marca completo (colores, tipografías, estilos, ejemplos)• Web de 4 a 6 secciones (Inicio, Servicios, Nosotros, Galería, Contacto, Reservas o Catálogo)",
+        "Manual de marca completo (colores, tipografías, estilos, ejemplos)",
+        "Web de 4 a 6 secciones (Inicio, Servicios, Nosotros, Galería, Contacto, Reservas o Catálogo)",
         "Copywriting adaptado a tu negocio (textos que venden)",
         "SEO local (para aparecer en Google)",
         "Capacitación para que puedas actualizar tu web",
@@ -102,8 +101,7 @@ export const tarifas = [
   },
   {
     title: "Premium",
-    description: "Ideal para negocios que quieren empezar a tener visibilidad online.",
-    objetive: "Tener una web profesional y fácil de usar para mostrar tus productos o servicios y que te contacten por WhatsApp.",
+    descriptions: "Ideal para negocios que quieren empezar a tener visibilidad online.",
     includes: {
       list: [
         "Todo lo del Plan Profesional",
@@ -138,7 +136,7 @@ export const Services = [
     }
   },
   {
-    number: "001",
+    number: "002",
     title: "Administracion y diseño de redes sociales",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
@@ -150,8 +148,8 @@ export const Services = [
     }
   },
   {
-    number: "001",
-    title: "Meta, Analytics, Email, etc.",
+    number: "003",
+    title: "Meta, Email, etc, Analytics",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
     items: {
@@ -162,7 +160,7 @@ export const Services = [
     }
   },
   {
-    number: "001",
+    number: "004",
     title: "Animación y motion graphics",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
@@ -174,7 +172,7 @@ export const Services = [
     }
   },
   {
-    number: "001",
+    number: "005",
     title: "Grabacion y Edicion de video",
     description: "Diseño de logotipo",
     urlImage: "https://www.gjulieta.com/",
@@ -185,4 +183,52 @@ export const Services = [
       ]
     }
   },
+]
+
+export const cardsForWhat = [
+  {
+    title: "Experiencia real en diseño y desarrollo web",
+    description: "Mas de 6",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },
+  {
+    title: "Combino branding + diseño + estrategia",
+    description: "Todo en uno",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    },
+    className: "prymary"
+  },
+  {
+    title: "Entrego rápido, sin tecnicismos",
+    description: "Diseño de logotipo",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },  
+  {
+    title: "Acompaño todo el proceso ",
+    description: "no te dejo solo con la web",
+    urlImage: "https://cdn.pixabay.com/photo/2025/11/07/11/56/car-9942887_1280.jpg",
+    items: {
+      value: [
+      "item uno",
+      "item dos"
+      ]
+    }
+  },  
 ]

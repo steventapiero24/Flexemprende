@@ -37,15 +37,15 @@ const FallingText = ({
             return;
         }
         if (trigger === 'scroll' && containerRef.current) {
-            const observer = new IntersectionObserver(
-                ([entry]) => {
-                    if (entry.isIntersecting) {
-                        setEffectStarted(true);
-                        observer.disconnect();
-                    }
-                },
-                { threshold: 0.1 }
-            );
+           const observer = new IntersectionObserver(
+    ([entry]) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.95) {  // Se activa cuando está 95% visible
+            setEffectStarted(true);
+            observer.disconnect();
+        }
+    },
+    { threshold: [0, 0.25, 0.5, 0.75, 0.95, 1] }  // Múltiples puntos de observación
+);
             observer.observe(containerRef.current);
             return () => observer.disconnect();
         }
