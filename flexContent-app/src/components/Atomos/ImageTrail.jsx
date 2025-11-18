@@ -124,7 +124,7 @@ class ImageTrailVariant1 {
           y: this.cacheMousePos.y - img.rect.height / 2
         },
         {
-          duration: 0.4,
+          duration: 0.6,
           ease: 'power1',
           x: this.mousePos.x - img.rect.width / 2,
           y: this.mousePos.y - img.rect.height / 2
@@ -134,7 +134,7 @@ class ImageTrailVariant1 {
       .to(
         img.DOM.el,
         {
-          duration: 0.4,
+          duration: 0.6,
           ease: 'power3',
           opacity: 0,
           scale: 0.2
